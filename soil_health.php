@@ -22,7 +22,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
             <div class="row row-content mt-5 justify-content-center">
                 <div class="col-lg-8 col-md-10">
                     <div class="glass-card mb-4" style="border-top: 5px solid var(--color-secondary);">
-                        <h3 class="title text-secondary mb-4" style="border-bottom: 2px solid rgba(13, 148, 136, 0.2); padding-bottom: 10px;">
+                        <h3 class="title text-primary mb-4" style="border-bottom: 2px solid rgba(16, 185, 129, 0.2); padding-bottom: 10px;">
                             <i class="fas fa-flask mr-2"></i>Soil pH Monitor
                         </h3>
                         
