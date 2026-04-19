@@ -9,31 +9,18 @@
 <div class="wrapper" >
 
     <div class="wrapper">
-      <header class="jumbotron bg-gradient-nature">
-        <div class="container">
-          <div class="row row-header align-items-center">
-            <div class="col-12 col-sm-7">
-              <h1 class="text-white display-3 font-weight-bold">Crop Management System</h1>
-              <p class="text-white font-weight-light mb-4" style="font-size: 1.2rem;">
-               A True Farmer's Friend.
-              </p>
-              <div class="cg mt-4">
-                <div class="glass-card">
-                  <blockquote cite="blockquote" class="mb-0">
-                    <h6 class="mb-2 text-dark">
-                      <em><b style="font-weight: 600;">“Farming looks mighty easy when your plow is a pencil, and you're a thousand miles from the corn field..”</b></em>
-                    </h6>
-                    <footer class="blockquote-footer vg text-dark mt-2" style="font-size: 0.85rem; opacity: 0.8;">
-                      DWIGHT D. EISENHOWER
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-5 align-self-center mt-5 mt-sm-0 text-center">
-              <img src="assets/img/plant-bulb.png" class="img-fluid" style="filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2)); transform: scale(1.1);" alt="Plant innovation" />
-            </div>
-          </div>
+      <!-- Sub Navbar Message -->
+      <div style="background-color: rgba(16, 185, 129, 1); padding: 12px 0; text-align: center;">
+        <h5 style="color: white; margin: 0; font-weight: 600; font-size: 1.1rem; letter-spacing: 0.5px;">Welcome to AgriSmart - Smart Solutions for Sustainable Farming</h5>
+      </div>
+      
+      <!-- Big Image with Message -->
+      <header class="jumbotron" style="background-image: url('assets/img/image.jpg'); background-size: cover; background-position: center; height: 500px; display: flex; align-items: center; justify-content: center; border-radius: 0; margin-bottom: 0; position: relative;">
+        <!-- Optional overlay gradient for better text readability -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.25);"></div>
+        
+        <div class="container text-center" style="position: relative; z-index: 2;">
+          <h1 class="text-white font-weight-bold" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.8); font-size: 3rem; letter-spacing: 1px;">Transforming Agriculture with Smart Technology</h1>
         </div>
       </header>
 <!-- Page Content -->
