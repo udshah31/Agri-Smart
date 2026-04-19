@@ -23,7 +23,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
                 <div class="col-md-10">
                     <div class="glass-card mb-4" style="border-top: 5px solid var(--color-accent);">
                         <form role="form" action="#" method="post">
-                            <h3 class="title text-dark mb-4" style="border-bottom: 2px solid rgba(52, 211, 153, 0.2); padding-bottom: 10px;">Input Parameters</h3>
+                            <h3 class="title text-primary">Input Parameters</h3>
                             
                             <div class="row">
                                 <div class="col-md-4">
