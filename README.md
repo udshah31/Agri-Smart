@@ -401,11 +401,11 @@ AgriSmart-main/
 
 ## 👥 Team Members
 
-- Rajaram Sharma
-- Archana Kumari Sah
-- Dharmendra Kumar Mandal
-- Sharada Chaudhary
-- Dev Narayan Sah
+- 
+- 
+- 
+- 
+- 
 
 ---
 
