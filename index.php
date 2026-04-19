@@ -41,7 +41,7 @@
         <div class="row align-items-center">
 		
           <div class="col-lg-6">
-            <div class="info info-horizontal glass-card mt-4">
+            <div class="glass-card mt-4">
               <div class="description">
                 <h3 class="title text-primary" >Farmers</h3>
            <p class="mt-3">Farmers can get recommendations for crop and fertilizer and even 
@@ -71,8 +71,8 @@
         <div class="container"> 
           <div class="row align-items-center"> 
             <div class="col-lg-5 col-md-8 mr-auto text-left"> 
-              <div class="pr-md-5"> 
-                <div class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mb-5"> <i class="ni ni-favourite-28"> </i></div>
+              <div class="pr-md-5 glass-card"> 
+                <div class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mb-4"> <i class="ni ni-favourite-28"> </i></div>
                 <h3 class="display-3 text-justify">Features</h3>
                 <p>The time is now for the next step in farming. We bring you the future of farming along with great tools for asisting the farmers.</p>
                 <ul class="list-unstyled mt-5"> 

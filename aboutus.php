@@ -42,7 +42,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
                                 <img src="assets/img/technology.png" alt="Our Technology and Solutions" class="img-fluid rounded shadow-sm" style="max-height: 300px; border-radius: 15px;">
                             </div>
                             <div class="col-md-6 order-2 mt-4 mt-md-0 px-md-4">
-                                <h3 class="title text-secondary"><i class="fas fa-microchip mr-2"></i>Our Technology and Solutions</h3>
+                                <h3 class="title" style="color: var(--color-secondary);"><i class="fas fa-microchip mr-2"></i>Our Technology and Solutions</h3>
                                 <p class="description mt-3" style="color: var(--color-dark); font-size: 1.1rem; line-height: 1.8;">
                                     At AgriSmart, we leverage cutting-edge technologies to revolutionize agriculture. Our platform provides various solutions like personalized crop recommendations based on environmental conditions, precision-based fertilizer suggestions for higher yield and sustainability, and continuous soil health monitoring for making data-driven decisions. We also offer an efficient waste management system to minimize environmental impact and a weather forecasting system that helps farmers plan better with rain predictions and optimal water usage. Additionally, we keep farmers updated with the latest agricultural trends and industry news to help them stay ahead.
                                 </p>
