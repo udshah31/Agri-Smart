@@ -1,0 +1,181 @@
+/* Premium Glassmorphic Design System for AgriSmart */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --color-primary: #10B981; /* Vibrant Emerald */
+  --color-primary-dark: #059669;
+  --color-secondary: #0D9488; /* Teal */
+  --color-accent: #34D399;
+  --color-dark: #1F2937;
+  --color-light: #F9FAFB;
+  --color-surface: rgba(255, 255, 255, 0.85); /* Glass base */
+  
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+  --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4, .title {
+  font-family: var(--font-heading) !important;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.65) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  box-shadow: var(--shadow-glass) !important;
+  border-radius: 16px;
+}
+
+.glass-card {
+  background: var(--color-surface);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  box-shadow: var(--shadow-card);
+  padding: 2rem;
+  transition: var(--transition-smooth);
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Gradients */
+.bg-gradient-nature {
+  background: linear-gradient(135deg, #10B981 0%, #0D9488 100%) !important;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #059669, #0D9488);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Modern Buttons */
+.btn-vibrant {
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-primary-dark) 100%);
+  color: white !important;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 14px 0 rgba(16, 185, 129, 0.39);
+  transition: var(--transition-fast);
+  cursor: pointer;
+}
+
+.btn-vibrant:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.23);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+}
+
+.btn-vibrant:active {
+  transform: translateY(1px);
+}
+
+/* Form Styles */
+.form-group-modern {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.form-group-modern label {
+  display: block;
+  font-weight: 500;
+  color: var(--color-dark);
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.form-control-modern {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.9);
+  transition: var(--transition-fast);
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
+
+.form-control-modern:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
+  background: white;
+}
+
+/* Overrides for Bootstrap Components */
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+  transition: var(--transition-smooth);
+}
+
+.jumbotron {
+  border-radius: 0 0 40px 40px;
+  padding: 6rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.badge-vibrant {
+  background-color: var(--color-accent);
+  color: var(--color-dark);
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Backgrounds for auth pages */
+.auth-bg {
+  min-height: 100vh;
+  background: url('assets/img/image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-bg::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, rgba(16,185,129,0.3) 0%, rgba(13,148,136,0.5) 100%);
+  backdrop-filter: blur(3px);
+  z-index: 0;
+}
+
+.auth-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 450px;
+}
